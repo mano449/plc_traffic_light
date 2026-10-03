@@ -1,0 +1,364 @@
+FILE,LAD 2:
+SOR,0 XIO,I:1/0 BST,1 XIC,I:1/1 NXB,1 XIC,B3:0/0 BND,1 OTE,B3:0/0 EOR,0
+RCM,
+SOR,1 XIC,B3:0/0 XIO,B3:0/2 XIO,B3:0/3 OTL,B3:0/1 EOR,1
+RCM,
+SOR,2 XIC,B3:0/1 TON,T4:0,500 EOR,2
+RCM,
+SOR,3 XIC,B3:0/1 XIC,T4:0/DN OTL,B3:0/2 EOR,3
+RCM,
+SOR,4 XIC,T4:0/DN OTU,B3:0/1 EOR,4
+RCM,
+SOR,5 XIC,B3:0/2 TON,T4:1,200 EOR,5
+RCM,
+SOR,6 XIC,B3:0/2 XIC,T4:1/DN OTL,B3:0/3 EOR,6
+RCM,
+SOR,7 XIC,T4:1/DN OTU,B3:0/2 EOR,7
+RCM,
+SOR,8 XIC,B3:0/3 TON,T4:2,500 EOR,8
+RCM,
+SOR,9 XIC,B3:0/3 XIC,T4:2/DN OTL,B3:0/1 EOR,9
+RCM,
+SOR,10 XIC,T4:2/DN OTU,B3:0/3 EOR,10
+RCM,
+SOR,11 XIC,B3:0/1 OTE,O:2/0 EOR,11
+RCM,
+SOR,12 XIC,B3:0/2 OTE,O:2/2 EOR,12
+RCM,
+SOR,13 XIC,B3:0/3 OTE,O:2/1 EOR,13
+RCM,
+SOR,14 END,14
+RCM,
+FILE,SBR 3:
+SOR,0 END,0
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+O:2/0 RED
+O:2/1 GREEN
+O:2/2 YELLOW
+I:1/0 STOP
+I:1/1 START
+T4:0 RED TIMER
+T4:1 YELLOW TIMER
+T4:2 GREEN TIMER
